@@ -7,7 +7,7 @@ if (args.Length > 0)
 {
     HttpClient client = new HttpClient();
 
-    client.DefaultRequestHeaders.Add("authorization", "Bearer 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");
+    client.DefaultRequestHeaders.Add("authorization", "Bearer key-value");// enter the key value generated on gpt site
     var isSyntaxQuestion = args[0].ToLower().Contains("syntax");
     if (isSyntaxQuestion)
     {
